@@ -124,6 +124,3 @@ CREATE TABLE product_attribute (
     FOREIGN KEY (attribute_category_id) REFERENCES attribute_category(id) ON DELETE SET NULL,
     FOREIGN KEY (attribute_type_id) REFERENCES attribute_type(id) ON DELETE CASCADE
 );
-
--- ERD VISUAL 
-code /c:\Users\USER\Downloads\E-commerce Database Design.jpg
